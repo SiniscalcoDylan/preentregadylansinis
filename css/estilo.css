@@ -77,3 +77,15 @@ ul.menu {
     width: 200px;
     height: 200px;
 }
+.grupo{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        margin: auto;
+        width: 640px; 
+        padding: 50px;
+        font-family: 'Avenir', sans-serif; 
+        color: #33475b;    
+}
