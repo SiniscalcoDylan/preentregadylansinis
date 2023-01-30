@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../complemetos/recurses/imagenes/fondo\ de\ rock.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: cornflowerblue;
+}
+h1{
+   color: blueviolet;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #05cceb;
+    max-width: 1000px;
+    margin: unset;
+}
+.menu li ul{
+    display: none ;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+ul.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    fñp
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.noticiasPrincipal{
+    font-style: italic;
+}
+.titulo2{
+    color: chocolate;
+}
+
+.parrafo{
+    color: red;
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 40px;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    size: 50px;
+}
+.h3-canciones{
+    color: blueviolet;
+}
+.titulo-canciones{
+    color: darkblue;
+}
+.links{
+    color: blueviolet;
+}
+
+.artistas{
+    width: 200px;
+    height: 200px;
+}
