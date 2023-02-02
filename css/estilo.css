@@ -1,60 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-image: url(../complemetos/recurses/imagenes/fondo\ de\ rock.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: cornflowerblue;
 }
-h1{
-   color: blueviolet;
+
+h1 {
+    color: blueviolet;
     margin-right: 30px;
     margin-left: 30px;
+    padding: 2rex;
+    text-align: center;
 }
-.menu{
+
+@media (max-width: 760px) {
+    .h1 {
+        color: black;
+    }
+}
+
+.menu {
     list-style: none;
     padding: 0;
     background: #05cceb;
     max-width: 1000px;
     margin: unset;
 }
-.menu li ul{
-    display: none ;
+
+.menu li ul {
+    display: none;
     position: absolute;
     min-width: 140px;
 }
-.menu li:hover > ul {
+
+.menu li:hover>ul {
     display: block;
 }
+
 ul.menu {
     display: flex;
     justify-content: space-between;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
     text-align: center;
     fñp
 }
-.menu li a:hover{
+
+.menu li a:hover {
     background: #ef8354;
 }
-.noticiasPrincipal{
+
+.noticiasPrincipal {
     font-style: italic;
 }
-.titulo2{
+
+.titulo2 {
     color: chocolate;
 }
 
-.parrafo{
+.parrafo {
     color: red;
     display: block;
     margin-block-start: 10px;
@@ -63,35 +82,79 @@ ul.menu {
     margin-inline-end: 40px;
     size: 50px;
 }
-.h3-canciones{
-    color: blueviolet;
-}
-.titulo-canciones{
-    color: darkblue;
-}
-.links{
+
+.h3-canciones {
     color: blueviolet;
 }
 
-.artistas{
+.titulo-canciones {
+    color: darkblue;
+}
+
+.links {
+    color: blueviolet;
+}
+
+.artistas {
     width: 200px;
     height: 200px;
 }
-.grupo{
+
+.grupo {
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-        margin: auto;
-        width: 640px; 
-        padding: 50px;
-        font-family: 'Avenir', sans-serif; 
-        color: #33475b;    
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: 'Avenir', sans-serif;
+    color: #33475b;
 }
-.recuerdos{
+
+.recuerdos {
     width: 99%;
     height: 90%;
     margin: auto;
     border: 5px solid red;
+}
+
+@media(max-width: 425px) {
+    .galeria {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color_: cyan
+    }
+}
+
+@media (max-width: 760px) {
+    .galeria{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color: black;
+    }
+}
+
+@media (max-width: 760px) {
+    .menu{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color: coral;
+    }
+}
+@media(max-width: 425px) {
+    .galeria {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+       color: sienna;
+    }
 }
