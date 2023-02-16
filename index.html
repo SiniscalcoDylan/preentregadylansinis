@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <title>FracesNomades</title>
 </head>
@@ -54,12 +56,31 @@
             <!-- https://www.youtube.com/watch?v=5mDiF4CjPME -->
         </article>
     </main>
+    <div class="contenedor">
+		<article>
+			<h3>Ventana Emergente Animada</h3>
+			<button id="btn-abrir-popup" class="btn-abrir-popup">Abrir Ventana Emergente</button>
+		</article>
+
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>para mas informacion</h3>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="text" placeholder="Nombre">
+						<input type="email" placeholder="Correo">
+					</div>
+					<input type="submit" class="btn-submit" value="Suscribirse">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="popup.js"></script>
     <br><br>
     <!-- Pie de página -->
     <footer>
         FRN
-        <!-- poner algunos datos, de menor inportancia -->
     </footer>
 </body>
-
 </html>
