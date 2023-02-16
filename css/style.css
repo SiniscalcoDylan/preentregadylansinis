@@ -139,7 +139,7 @@ ul.menu {
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width:576px) {
     .menu{
         margin-right: 30px;
         margin-left: 30px;
@@ -147,8 +147,6 @@ ul.menu {
         text-align: center;
         color: rgb(224, 76, 23);
     }
-}
-@media(max-width: 425px) {
     .galeria {
         margin-right: 30px;
         margin-left: 30px;
